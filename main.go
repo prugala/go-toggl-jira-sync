@@ -9,8 +9,6 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
-
-	//"github.com/andygrunwald/go-jira"
 	"os"
 )
 
