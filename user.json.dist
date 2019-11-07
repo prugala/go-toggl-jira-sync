@@ -1,0 +1,10 @@
+{
+  "user": [
+    {
+      "jira_name": "",
+      "jira_login": "",
+      "jira_token": "",
+      "toggl_token": ""
+    }
+  ]
+}

@@ -1,0 +1,704 @@
+INFO : 2019/11/07 20:43:41.667100 toggl.go:51: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 20:43:41.668099 toggl.go:44: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 20:43:41.669114 toggl.go:44: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 20:43:41.669114 toggl.go:44: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 20:43:41.669114 toggl.go:44: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 20:43:41.670099 toggl.go:44: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 20:43:41.670099 toggl.go:44: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 21:02:33.463093 toggl.go:51: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 21:02:33.464094 toggl.go:44: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 21:02:33.464094 toggl.go:44: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 21:02:33.464094 toggl.go:44: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 21:02:33.465096 toggl.go:44: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 21:02:33.465096 toggl.go:44: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 21:02:33.465096 toggl.go:44: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 21:09:50.183451 toggl.go:51: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 21:09:50.189452 toggl.go:44: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 21:09:50.189452 toggl.go:44: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 21:09:50.189452 toggl.go:44: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 21:09:50.190453 toggl.go:44: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 21:09:50.190453 toggl.go:44: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 21:09:50.190453 toggl.go:44: [toggl] Entry '' with id 1354652520 dosen't have project
+FATAL: 2019/11/07 21:09:59.090451 user.go:27: open users.json: Nie można odnaleźć określonego pliku.
+INFO : 2019/11/07 21:55:13.815312 toggl.go:51: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 21:55:13.816291 toggl.go:44: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 21:55:13.816291 toggl.go:44: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 21:55:13.816291 toggl.go:44: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 21:55:13.817290 toggl.go:44: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 21:55:13.817290 toggl.go:44: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 21:55:13.818289 toggl.go:44: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 21:58:29.620003 toggl.go:53: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 21:58:29.622028 toggl.go:46: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 21:58:29.622028 toggl.go:46: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 21:58:29.622028 toggl.go:46: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 21:58:29.623027 toggl.go:46: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 21:58:29.623027 toggl.go:46: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 21:58:29.623027 toggl.go:46: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:02:51.720221 toggl.go:54: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:02:51.721213 toggl.go:47: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:02:51.722233 toggl.go:47: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:02:51.722233 toggl.go:47: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:02:51.723211 toggl.go:47: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:02:51.723211 toggl.go:47: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:02:51.723211 toggl.go:47: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:08:49.823696 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:08:49.824695 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:08:49.824695 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:08:49.824695 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:08:49.825717 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:08:49.825717 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:08:49.825717 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:11:11.986717 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:11:11.987696 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:11:11.987696 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:11:11.987696 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:11:11.988717 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:11:11.988717 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:11:11.988717 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:24:09.723355 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:24:09.724357 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:24:09.724357 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:24:09.724357 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:24:09.725356 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:24:09.725356 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:24:09.725356 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:24:09.725356 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:24:09.726338 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:24:09.726338 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:24:09.726338 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:24:09.727338 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:24:09.727338 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:24:09.727338 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:24:09.728338 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:24:09.728338 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:24:09.728338 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:24:09.728338 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:24:09.729339 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:24:09.729339 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:24:09.730339 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:24:23.829387 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:24:23.830384 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:24:23.830384 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:24:23.830384 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:24:23.831384 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:24:23.831384 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:24:23.831384 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:24:23.832383 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:24:23.832383 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:24:23.832383 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:24:23.833382 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:24:23.833382 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:24:23.833382 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:24:23.834404 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:24:23.834404 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:24:23.835404 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:24:23.835404 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:24:23.835404 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:24:23.836383 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:24:23.836383 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:24:23.836383 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:24:51.023403 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:24:51.024404 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:24:51.024404 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:24:51.024404 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:24:51.025403 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:24:51.025403 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:24:51.025403 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:24:51.025403 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:24:51.026403 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:24:51.026403 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:24:51.026403 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:24:51.027404 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:24:51.027404 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:24:51.027404 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:24:51.028382 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:24:51.029383 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:24:51.029383 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:24:51.029383 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:24:51.030384 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:24:51.030384 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:24:51.030384 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:25:13.561402 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:25:13.562383 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:25:13.562383 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:25:13.562383 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:25:13.563403 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:25:13.563403 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:25:13.563403 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:25:13.564403 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:25:13.565401 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:25:13.565401 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:25:13.565401 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:25:13.566403 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:25:13.566403 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:25:13.566403 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:25:13.567383 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:25:13.568383 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:25:13.568383 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:25:13.568383 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:25:13.569383 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:25:13.569383 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:25:13.569383 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:30:11.017393 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:30:11.018392 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:30:11.018392 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:30:11.018392 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:30:11.019392 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:30:11.019392 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:30:11.019392 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:30:11.019392 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:30:11.020393 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:30:11.020393 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:30:11.020393 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:30:11.021392 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:30:11.021392 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:30:11.021392 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:30:11.022392 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:30:11.022392 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:30:11.022392 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:30:11.023392 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:30:11.023392 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:30:11.023392 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:30:11.023392 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:30:54.547952 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:30:54.548974 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:30:54.548974 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:30:54.548974 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:30:54.549951 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:30:54.549951 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:30:54.549951 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:30:54.550952 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:30:54.550952 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:30:54.551971 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:30:54.551971 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:30:54.551971 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:30:54.552951 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:30:54.552951 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:30:54.553952 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:30:54.553952 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:30:54.553952 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:30:54.553952 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:30:54.554971 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:30:54.554971 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:30:54.554971 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:32:41.078115 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:32:41.079136 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:32:41.079136 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:32:41.079136 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:32:41.079136 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:32:41.080135 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:32:41.080135 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:32:41.080135 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:32:41.081135 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:32:41.081135 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:32:41.081135 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:32:41.082116 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:32:41.082116 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:32:41.082116 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:32:41.083135 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:32:41.083135 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:32:41.083135 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:32:41.083135 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:32:41.084119 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:32:41.084119 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:32:41.084119 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:32:59.227816 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:32:59.228817 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:32:59.228817 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:32:59.228817 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:32:59.229837 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:32:59.229837 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:32:59.229837 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:32:59.229837 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:32:59.230838 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:32:59.230838 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:32:59.230838 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:32:59.231837 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:32:59.231837 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:32:59.231837 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:32:59.232837 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:32:59.232837 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:32:59.232837 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:32:59.233816 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:32:59.233816 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:32:59.233816 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:32:59.233816 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:37:19.437389 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:37:19.438387 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:37:19.439388 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:37:19.439388 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:37:19.440388 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:37:19.440388 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:37:19.440388 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:37:19.441388 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:37:19.442387 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:37:19.442387 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:37:19.442387 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:37:19.442387 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:37:19.443387 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:37:19.443387 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:37:19.443387 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:37:19.444387 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:37:19.444387 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:37:19.444387 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:37:19.445386 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:37:19.445386 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:37:19.445386 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+FATAL: 2019/11/07 22:37:19.445386 database.go:53: Key not found
+INFO : 2019/11/07 22:42:06.781791 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:42:06.782791 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:42:06.782791 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:42:06.782791 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:42:06.783791 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:42:06.783791 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:42:06.784791 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+FATAL: 2019/11/07 22:42:06.784791 database.go:53: Key not found
+INFO : 2019/11/07 22:51:15.461823 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:51:15.462822 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:51:15.463823 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:51:15.463823 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:51:15.464824 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:51:15.464824 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:51:15.464824 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:51:15.466823 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:51:15.467824 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:51:15.467824 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:51:15.468824 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:51:15.468824 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:51:15.469825 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:51:15.469825 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:51:15.471822 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:51:15.472825 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:51:15.472825 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:51:15.472825 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:51:15.473847 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:51:15.473847 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:51:15.473847 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:51:24.800823 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:51:24.801846 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:51:24.801846 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:51:24.801846 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:51:24.802846 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:51:24.802846 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:51:24.803823 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:51:24.804824 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:51:24.805825 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:51:24.805825 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:51:24.806824 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:51:24.806824 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:51:24.806824 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:51:24.806824 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:51:24.818844 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:51:24.819824 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:51:24.820843 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:51:24.820843 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:51:24.820843 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:51:24.820843 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:51:24.820843 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:53:19.307454 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:53:19.308457 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:53:19.308457 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:53:19.309457 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:53:19.309457 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:53:19.309457 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:53:19.309457 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:53:19.310457 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:53:19.311458 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:53:19.311458 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:53:19.311458 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:53:19.311458 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:53:19.312458 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:53:19.312458 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:53:19.317456 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:53:19.318455 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:53:19.318455 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:53:19.318455 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:53:19.319456 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:53:19.319456 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:53:19.319456 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:53:37.323455 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:53:37.324457 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:53:37.324457 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:53:37.324457 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:53:37.325457 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:53:37.325457 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:53:37.325457 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:53:37.326460 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:53:37.327458 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:53:37.327458 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:53:37.327458 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:53:37.327458 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:53:37.327458 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:53:37.327458 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:53:37.333456 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:53:37.335456 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:53:37.335456 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:53:37.335456 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:53:37.335456 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:53:37.335456 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:53:37.335456 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:54:59.842537 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:54:59.843558 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:54:59.843558 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:54:59.843558 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:54:59.844540 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:54:59.844540 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:54:59.844540 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:54:59.846538 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:54:59.846538 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:54:59.846538 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:54:59.846538 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:54:59.847538 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:54:59.847538 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:54:59.847538 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:54:59.852555 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:54:59.853540 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:54:59.853540 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:54:59.853540 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:54:59.853540 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:54:59.853540 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:54:59.853540 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:56:47.844604 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:56:47.845605 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:56:47.845605 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:56:47.846585 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:56:47.846585 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:56:47.847584 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:56:47.847584 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:56:47.849585 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:56:47.849585 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:56:47.849585 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:56:47.849585 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:56:47.850585 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:56:47.850585 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:56:47.850585 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:56:47.860585 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:56:47.861584 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:56:47.861584 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:56:47.862586 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:56:47.862586 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:56:47.862586 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:56:47.862586 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+FATAL: 2019/11/07 22:56:47.862586 database.go:29: Error: key not found
+INFO : 2019/11/07 22:57:18.616382 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:57:18.618382 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:57:18.618382 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:57:18.618382 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:57:18.618382 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:57:18.619383 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:57:18.619383 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:57:18.620383 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:57:18.620383 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:57:18.620383 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:57:18.621383 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:57:18.621383 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:57:18.621383 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:57:18.621383 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:57:18.627384 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:57:18.628385 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:57:18.628385 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:57:18.628385 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:57:18.628385 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:57:18.628385 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:57:18.628385 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:57:37.067459 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:57:37.068460 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:57:37.068460 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:57:37.068460 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:57:37.069459 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:57:37.069459 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:57:37.069459 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:57:37.071459 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:57:37.071459 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:57:37.071459 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:57:37.071459 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:57:37.072479 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:57:37.072479 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:57:37.072479 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:57:37.079462 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:57:37.080463 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:57:37.081460 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:57:37.081460 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:57:37.081460 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:57:37.081460 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:57:37.082461 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:58:11.659459 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:58:11.659459 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:58:11.660459 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:58:11.660459 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:58:11.660459 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:58:11.661479 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:58:11.661479 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:58:11.662459 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:58:11.662459 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:58:11.663478 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:58:11.663478 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:58:11.663478 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:58:11.663478 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:58:11.663478 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:58:11.669458 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:58:11.670460 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:58:11.671476 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:58:11.671476 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:58:11.671476 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:58:11.671476 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:58:11.671476 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:58:24.981458 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:58:24.982458 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:58:24.982458 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:58:24.982458 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:58:24.983459 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:58:24.983459 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:58:24.983459 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:58:24.984458 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:58:24.985459 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:58:24.985459 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:58:24.985459 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:58:24.985459 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:58:24.985459 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:58:24.985459 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:58:24.991458 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:58:24.992459 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:58:24.992459 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:58:24.992459 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:58:24.993458 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:58:24.993458 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:58:24.993458 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:58:37.397460 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:58:37.398458 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:58:37.398458 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:58:37.398458 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:58:37.399459 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:58:37.399459 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:58:37.399459 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:58:37.400459 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:58:37.401458 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:58:37.401458 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:58:37.401458 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:58:37.401458 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:58:37.401458 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:58:37.402461 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:58:37.408461 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:58:37.409459 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:58:37.409459 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:58:37.410462 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:58:37.411462 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:58:37.411462 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:58:37.411462 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:59:51.546331 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:59:51.547354 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:59:51.547354 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:59:51.548333 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:59:51.548333 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:59:51.548333 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:59:51.549334 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:59:51.551336 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:59:51.551336 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:59:51.551336 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:59:51.551336 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:59:51.552333 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:59:51.552333 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:59:51.552333 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 22:59:51.558353 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 22:59:51.558353 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 22:59:51.559333 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 22:59:51.559333 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 22:59:51.559333 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 22:59:51.559333 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 22:59:51.559333 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:00:42.359497 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:00:42.360498 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:00:42.360498 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:00:42.360498 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:00:42.360498 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:00:42.360498 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:00:42.360498 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:00:42.365497 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:00:42.366499 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:00:42.366499 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:00:42.366499 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:00:42.366499 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:00:42.366499 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:00:42.366499 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:00:42.367498 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:00:42.368499 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:00:42.368499 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:00:42.368499 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:00:42.368499 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:00:42.368499 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:00:42.368499 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:00:59.373497 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:00:59.374498 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:00:59.374498 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:00:59.374498 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:00:59.375498 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:00:59.375498 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:00:59.375498 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:00:59.377497 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:00:59.377497 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:00:59.378498 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:00:59.378498 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:00:59.378498 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:00:59.378498 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:00:59.378498 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:00:59.378498 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:00:59.380499 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:00:59.380499 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:00:59.380499 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:00:59.380499 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:00:59.380499 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:00:59.380499 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:02:14.567518 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:02:14.568537 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:02:14.568537 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:02:14.568537 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:02:14.569519 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:02:14.569519 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:02:14.569519 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:02:14.571538 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:02:14.572518 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:02:14.572518 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:02:14.572518 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:02:14.573520 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:02:14.573520 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:02:14.573520 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:02:14.573520 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:02:14.574521 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:02:14.575517 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:02:14.575517 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:02:14.575517 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:02:14.575517 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:02:14.575517 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:07:27.204411 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:07:27.205411 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:07:27.205411 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:07:27.205411 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:07:27.206411 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:07:27.206411 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:07:27.206411 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:07:39.781392 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:07:39.783392 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:07:39.783392 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:07:39.783392 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:07:39.784391 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:07:39.784391 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:07:39.784391 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:08:06.830412 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:08:06.832391 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:08:06.832391 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:08:06.832391 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:08:06.833390 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:08:06.833390 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:08:06.833390 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:10:12.279534 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:10:12.280536 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:10:12.281534 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:10:12.281534 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:10:12.282535 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:10:12.283559 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:10:12.283559 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:10:17.435531 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:10:17.436552 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:10:17.436552 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:10:17.436552 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:10:17.437532 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:10:17.437532 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:10:17.437532 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:20:21.697341 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:20:21.698341 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:20:21.698341 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:20:21.698341 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:20:21.699342 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:20:21.699342 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:20:21.699342 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:21:25.913405 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:21:25.914406 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:21:25.914406 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:21:25.914406 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:21:25.915428 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:21:25.915428 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:21:25.915428 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:22:02.221299 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:22:02.222298 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:22:02.222298 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:22:02.222298 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:22:02.223298 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:22:02.223298 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:22:02.223298 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:22:26.691745 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:22:26.692746 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:22:26.692746 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:22:26.692746 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:22:26.693747 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:22:26.694747 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:22:26.694747 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:22:43.445744 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:22:43.446744 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:22:43.446744 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:22:43.446744 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:22:43.447746 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:22:43.447746 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:22:43.447746 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:23:42.994193 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:23:42.995173 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:23:42.995173 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:23:42.995173 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:23:42.996174 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:23:42.996174 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:23:42.996174 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:23:57.746268 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:23:57.747245 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:23:57.747245 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:23:57.747245 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:23:57.748245 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:23:57.748245 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:23:57.749268 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:26:40.928152 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:26:40.929130 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:26:40.929130 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:26:40.930155 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:26:40.930155 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:26:40.930155 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:26:40.931155 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:26:54.082234 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:26:54.084264 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:26:54.084264 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:26:54.085265 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:26:54.086263 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:26:54.086263 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:26:54.086263 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:29:31.979206 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:29:31.980205 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:29:31.981182 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:29:31.981182 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:29:31.981182 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:29:31.981182 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:29:31.982200 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:41:58.038873 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:41:58.039873 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:41:58.039873 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:41:58.039873 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:41:58.040873 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:41:58.040873 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:41:58.040873 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:42:39.610247 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:42:39.611247 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:42:39.611247 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:42:39.611247 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:42:39.612228 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:42:39.612228 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:42:39.612228 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:42:53.112291 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:42:53.112291 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:42:53.113292 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:42:53.113292 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:42:53.113292 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:42:53.113292 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:42:53.113292 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
+INFO : 2019/11/07 23:43:14.801289 toggl.go:55: [toggl] Entry 'whole day' with id 1346428691 dosen't have task
+INFO : 2019/11/07 23:43:14.802289 toggl.go:48: [toggl] Entry '' with id 1350502402 dosen't have project
+INFO : 2019/11/07 23:43:14.802289 toggl.go:48: [toggl] Entry '40 minut sprawdzanie zadania kandydata' with id 1351951578 dosen't have project
+INFO : 2019/11/07 23:43:14.802289 toggl.go:48: [toggl] Entry '2h review i planning' with id 1351951804 dosen't have project
+INFO : 2019/11/07 23:43:14.803290 toggl.go:48: [toggl] Entry '30 minut ocena kandydata' with id 1353297208 dosen't have project
+INFO : 2019/11/07 23:43:14.803290 toggl.go:48: [toggl] Entry '' with id 1353744091 dosen't have project
+INFO : 2019/11/07 23:43:14.803290 toggl.go:48: [toggl] Entry '' with id 1354652520 dosen't have project
