@@ -10,8 +10,8 @@ import (
 
 const dbFile = "db/database.db"
 
-func setEntryInDB(id int, duration int64) error {
-	err := slowpoke.Set(dbFile, []byte(strconv.Itoa(id)), []byte(strconv.Itoa(int(duration))))
+func setEntryInDB(id int, value string) error {
+	err := slowpoke.Set(dbFile, []byte(strconv.Itoa(id)), []byte(value))
 
 	if err != nil {
 		logger.Fatal(err)
@@ -21,13 +21,12 @@ func setEntryInDB(id int, duration int64) error {
 	return err
 }
 
-func getEntryFromDB(id int) int {
+func getEntryFromDB(id int) string {
 	res, err := slowpoke.Get(dbFile, []byte(strconv.Itoa(id)))
 
 	if err != nil {
-		return 0
+		return "0 0"
 	}
 
-	duration, err := strconv.Atoi(string(res))
-	return duration
+	return string(res)
 }

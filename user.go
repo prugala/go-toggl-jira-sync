@@ -13,9 +13,9 @@ type Users struct {
 }
 
 type User struct {
-	JiraName string `json:"jira_name"`
-	JiraLogin string `json:"jira_login"`
-	JiraToken string `json:"jira_token"`
+	JiraName   string `json:"jira_name"`
+	JiraLogin  string `json:"jira_login"`
+	JiraToken  string `json:"jira_token"`
 	TogglToken string `json:"toggl_token"`
 }
 

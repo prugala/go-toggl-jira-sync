@@ -2,14 +2,13 @@ package main
 
 import (
 	"flag"
-	"fmt"
+	"github.com/andygrunwald/go-jira"
 	"github.com/google/logger"
 	"github.com/joho/godotenv"
 	"github.com/recoilme/slowpoke"
-	"regexp"
+	"os"
 	"strconv"
 	"strings"
-	"os"
 )
 
 const logPath = "./app.log"
@@ -33,29 +32,39 @@ func main() {
 	defer logger.Init("Logger", false, true, lf).Close()
 
 	for _, user := range getUsers() {
-		account, _ := getTogglAccount(user.TogglToken)
+		togglSession := getTogglSession(user.TogglToken)
+		session := &Session{togglSession}
 
-		for _, entry := range account.getTogglEntries() {
-			if duration := getEntryFromDB(entry.Id); strconv.Itoa(duration) != strconv.FormatInt(entry.Duration, 10) {
-				setEntryInDB(entry.Id, entry.Duration)
+		jiraClient, _ := getJiraClient(user.JiraLogin, user.JiraToken)
 
-				//TODO
+		for _, entry := range session.getTogglEntries(7) {
+			value := getEntryFromDB(entry.Id)
+			duration := strings.Split(value, " ")[0]
+			jiraWorklogId := strings.Split(value, " ")[1]
+
+			if duration != strconv.FormatInt(entry.Duration, 10) {
+				if jiraWorklogId != "0" {
+					//update
+					start := jira.Time(entry.Start)
+					worklog, error := jiraClient.updateWorkLog(entry.Task.JiraId, entry.Description, jiraWorklogId, entry.Duration, start)
+
+					if error == nil {
+						setEntryInDB(entry.Id, strconv.FormatInt(entry.Duration, 10)+" "+worklog.ID)
+					} else {
+						logger.Fatalf("[jira] Task %s error: %v", entry.Task.JiraId, err)
+					}
+				} else {
+					//new
+					start := jira.Time(entry.Start)
+					worklog, error := jiraClient.addWorkLog(entry.Task.JiraId, entry.Description, entry.Duration, start)
+
+					if error == nil {
+						setEntryInDB(entry.Id, strconv.FormatInt(entry.Duration, 10)+" "+worklog.ID)
+					} else {
+						logger.Fatalf("[jira] Task %s error: %v", entry.Task.JiraId, err)
+					}
+				}
 			}
-
-			//TODO move above in if statement
-			client, _ := getJiraClient(user.JiraLogin, user.JiraToken)
-
-			//TODO move to jira
-			issueId := strings.Split(entry.Task.Name, " ")
-			issues, _, _ := client.Issue.Search("text ~ '" + issueId[0] + "' order by lastViewed DESC", nil)
-			fmt.Println(issues)
-			re := regexp.MustCompile(`\w+\-\d*`)
-			re.FindAllSubmatch([]byte(entry.Task.Name), 1)
-
-			//	now := &jira.Time{}
-			//
-			//	//worklogRecord := jira.WorklogRecord{"", u, nil, "test", now, now, now, "1h", 0, "", issue.ID, nil}
-			//	_, _, err := client.Issue.AddWorklogRecord(issue.ID, &worklogRecord)
 		}
 	}
 }

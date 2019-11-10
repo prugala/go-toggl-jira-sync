@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	g "github.com/jason0x43/go-toggl"
 	"github.com/google/logger"
+	"github.com/jason0x43/go-toggl"
+	"regexp"
 	"time"
 )
 
@@ -13,13 +14,14 @@ type TogglProject struct {
 }
 
 type TogglTask struct {
-	Id   int
-	Name string
+	Id     int
+	JiraId string
+	Name   string
 }
 
 type TogglEntry struct {
 	Id          int
-	Start		time.Time
+	Start       time.Time
 	Stop        time.Time
 	Duration    int64
 	Description string
@@ -28,28 +30,33 @@ type TogglEntry struct {
 	Imported    bool
 }
 
-type Account g.Account
+type Session struct {
+	toggl.Session
+}
 
-func getTogglAccount(token string) (Account, error) {
-	togglSession := g.OpenSession(token)
-	account, error := togglSession.GetAccount()
-
-	return Account(account), error
+func getTogglSession(token string) toggl.Session {
+	return toggl.OpenSession(token)
 }
 
 // Return entries with Project and Task only
-func (a *Account) getTogglEntries() []TogglEntry {
+func (s *Session) getTogglEntries(days int) []TogglEntry {
+	if days == 0 {
+		days = 7
+	}
+
 	var entries []TogglEntry
 
-	for _, entry := range a.Data.TimeEntries {
-		project, err := a.getTogglProjectById(entry.Pid)
+	e, _ := s.GetTimeEntries(time.Now().AddDate(0, 0, -days), time.Now())
+
+	for _, entry := range e {
+		project, err := s.getTogglProjectById(entry.Pid)
 
 		if err != nil {
 			logger.Infof("[toggl] Entry '%s' with id %d dosen't have project", entry.Description, entry.ID)
 			continue
 		}
 
-		task, err := a.getTogglTaskById(entry.Tid)
+		task, err := s.getTogglTaskById(entry.Tid)
 
 		if err != nil {
 			logger.Infof("[toggl] Entry '%s' with id %d dosen't have task", entry.Description, entry.ID)
@@ -58,8 +65,8 @@ func (a *Account) getTogglEntries() []TogglEntry {
 
 		entry := TogglEntry{
 			Id:          entry.ID,
-			Start:		 *entry.Start,
-			Stop:		 *entry.Stop,
+			Start:       *entry.Start,
+			Stop:        *entry.Stop,
 			Duration:    entry.Duration,
 			Description: entry.Description,
 			Project:     project,
@@ -72,8 +79,8 @@ func (a *Account) getTogglEntries() []TogglEntry {
 	return entries
 }
 
-func (a *Account) getTogglProjectById(id int) (TogglProject, error) {
-	for _, project := range a.getTogglProjects() {
+func (s *Session) getTogglProjectById(id int) (TogglProject, error) {
+	for _, project := range s.getTogglProjects() {
 		if project.Id == id {
 			return project, nil
 		}
@@ -82,10 +89,13 @@ func (a *Account) getTogglProjectById(id int) (TogglProject, error) {
 	return TogglProject{}, fmt.Errorf("Project with id %d not exists", id)
 }
 
-func (a *Account) getTogglProjects() []TogglProject {
+func (s *Session) getTogglProjects() []TogglProject {
 	var projects []TogglProject
 
-	for _, project := range a.Data.Projects {
+	account, _ := s.GetAccount()
+
+	for _, project := range account.Data.Projects {
+
 		project := TogglProject{
 			Id:   project.ID,
 			Name: project.Name,
@@ -97,8 +107,8 @@ func (a *Account) getTogglProjects() []TogglProject {
 	return projects
 }
 
-func (a *Account) getTogglTaskById(id int) (TogglTask, error) {
-	for _, task:= range a.getTogglTasks() {
+func (s *Session) getTogglTaskById(id int) (TogglTask, error) {
+	for _, task := range s.getTogglTasks() {
 		if task.Id == id {
 			return task, nil
 		}
@@ -107,13 +117,24 @@ func (a *Account) getTogglTaskById(id int) (TogglTask, error) {
 	return TogglTask{}, fmt.Errorf("Task with id %d not exists", id)
 }
 
-func (a *Account) getTogglTasks() []TogglTask {
+func (s *Session) getTogglTasks() []TogglTask {
 	var tasks []TogglTask
+	account, _ := s.GetAccount()
 
-	for _, task := range a.Data.Tasks {
+	for _, task := range account.Data.Tasks {
+		jiraId := ""
+
+		regex := regexp.MustCompile(`\w+\-\d*`)
+		regexResults := regex.FindAllSubmatch([]byte(task.Name), 1)
+
+		if len(task.Name) > 0 && len(regexResults) > 0 {
+			jiraId = string(regexResults[0][0])
+		}
+
 		task := TogglTask{
-			Id:   task.ID,
-			Name: task.Name,
+			Id:     task.ID,
+			JiraId: jiraId,
+			Name:   task.Name,
 		}
 
 		tasks = append(tasks, task)
