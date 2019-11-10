@@ -51,7 +51,7 @@ func main() {
 					if error == nil {
 						setEntryInDB(entry.Id, strconv.FormatInt(entry.Duration, 10)+" "+worklog.ID)
 					} else {
-						logger.Fatalf("[jira] Task %s error: %v", entry.Task.JiraId, err)
+						logger.Fatalf("[jira] Task %s error: %v", entry.Task.JiraId, error)
 					}
 				} else {
 					//new
@@ -61,7 +61,7 @@ func main() {
 					if error == nil {
 						setEntryInDB(entry.Id, strconv.FormatInt(entry.Duration, 10)+" "+worklog.ID)
 					} else {
-						logger.Fatalf("[jira] Task %s error: %v", entry.Task.JiraId, err)
+						logger.Fatalf("[jira] Task %s error: %v", entry.Task.JiraId, error)
 					}
 				}
 			}
