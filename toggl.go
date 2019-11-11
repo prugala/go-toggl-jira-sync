@@ -34,6 +34,10 @@ type Session struct {
 	toggl.Session
 }
 
+type Account struct {
+	toggl.Account
+}
+
 func getTogglSession(token string) toggl.Session {
 	return toggl.OpenSession(token)
 }
@@ -44,21 +48,24 @@ func (s *Session) getTogglEntries(days int) []TogglEntry {
 		days = 7
 	}
 
+	a, _ := s.GetAccount()
+	account := Account{a}
+
 	var entries []TogglEntry
 
 	e, _ := s.GetTimeEntries(time.Now().AddDate(0, 0, -days), time.Now())
 
 	for _, entry := range e {
-		project, err := s.getTogglProjectById(entry.Pid)
+		project, error := account.getTogglProjectById(entry.Pid)
 
-		if err != nil {
+		if error != nil {
 			logger.Infof("[toggl] Entry '%s' with id %d dosen't have project", entry.Description, entry.ID)
 			continue
 		}
 
-		task, err := s.getTogglTaskById(entry.Tid)
+		task, error := account.getTogglTaskById(entry.Tid)
 
-		if err != nil {
+		if error != nil {
 			logger.Infof("[toggl] Entry '%s' with id %d dosen't have task", entry.Description, entry.ID)
 			continue
 		}
@@ -79,8 +86,8 @@ func (s *Session) getTogglEntries(days int) []TogglEntry {
 	return entries
 }
 
-func (s *Session) getTogglProjectById(id int) (TogglProject, error) {
-	for _, project := range s.getTogglProjects() {
+func (a *Account) getTogglProjectById(id int) (TogglProject, error) {
+	for _, project := range a.getTogglProjects() {
 		if project.Id == id {
 			return project, nil
 		}
@@ -89,12 +96,10 @@ func (s *Session) getTogglProjectById(id int) (TogglProject, error) {
 	return TogglProject{}, fmt.Errorf("Project with id %d not exists", id)
 }
 
-func (s *Session) getTogglProjects() []TogglProject {
+func (a *Account) getTogglProjects() []TogglProject {
 	var projects []TogglProject
 
-	account, _ := s.GetAccount()
-
-	for _, project := range account.Data.Projects {
+	for _, project := range a.Data.Projects {
 
 		project := TogglProject{
 			Id:   project.ID,
@@ -107,8 +112,8 @@ func (s *Session) getTogglProjects() []TogglProject {
 	return projects
 }
 
-func (s *Session) getTogglTaskById(id int) (TogglTask, error) {
-	for _, task := range s.getTogglTasks() {
+func (a *Account) getTogglTaskById(id int) (TogglTask, error) {
+	for _, task := range a.getTogglTasks() {
 		if task.Id == id {
 			return task, nil
 		}
@@ -117,11 +122,10 @@ func (s *Session) getTogglTaskById(id int) (TogglTask, error) {
 	return TogglTask{}, fmt.Errorf("Task with id %d not exists", id)
 }
 
-func (s *Session) getTogglTasks() []TogglTask {
+func (a *Account) getTogglTasks() []TogglTask {
 	var tasks []TogglTask
-	account, _ := s.GetAccount()
 
-	for _, task := range account.Data.Tasks {
+	for _, task := range a.Data.Tasks {
 		jiraId := ""
 
 		regex := regexp.MustCompile(`\w+\-\d*`)

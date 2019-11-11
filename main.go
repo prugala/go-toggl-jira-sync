@@ -21,9 +21,9 @@ func init() {
 func main() {
 	flag.Parse()
 
-	lf, err := os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0660)
-	if err != nil {
-		logger.Fatalf("Failed to open log file: %v", err)
+	lf, error := os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0660)
+	if error != nil {
+		logger.Fatalf("Failed to open log file: %v", error)
 	}
 
 	defer slowpoke.CloseAll()
@@ -42,7 +42,7 @@ func main() {
 			duration := strings.Split(value, " ")[0]
 			jiraWorklogId := strings.Split(value, " ")[1]
 
-			if duration != strconv.FormatInt(entry.Duration, 10) {
+			if duration != strconv.FormatInt(entry.Duration, 10) && entry.Task.JiraId != "" {
 				if jiraWorklogId != "0" {
 					//update
 					start := jira.Time(entry.Start)
