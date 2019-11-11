@@ -34,10 +34,11 @@ func main() {
 	for _, user := range getUsers() {
 		togglSession := getTogglSession(user.TogglToken)
 		session := &Session{togglSession}
-
 		jiraClient, _ := getJiraClient(user.JiraLogin, user.JiraToken)
 
-		for _, entry := range session.getTogglEntries(7) {
+		days, _ := strconv.Atoi(os.Getenv("DAYS"))
+
+		for _, entry := range session.getTogglEntries(days) {
 			value := getEntryFromDB(entry.Id)
 			duration := strings.Split(value, " ")[0]
 			jiraWorklogId := strings.Split(value, " ")[1]
