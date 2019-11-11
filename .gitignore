@@ -1,6 +1,7 @@
 .idea
 .env.local
 app.log
-users.json
+build
 db
+users.json
 vendor
