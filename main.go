@@ -43,11 +43,17 @@ func main() {
 			duration := strings.Split(value, " ")[0]
 			jiraWorklogId := strings.Split(value, " ")[1]
 
+			description := ""
+
+			if entry.Task.Name != entry.Description {
+				description = entry.Description
+			}
+
 			if duration != strconv.FormatInt(entry.Duration, 10) && entry.Task.JiraId != "" {
 				if jiraWorklogId != "0" {
 					//update
 					start := jira.Time(entry.Start)
-					worklog, error := jiraClient.updateWorkLog(entry.Task.JiraId, entry.Description, jiraWorklogId, entry.Duration, start)
+					worklog, error := jiraClient.updateWorkLog(entry.Task.JiraId, description, jiraWorklogId, entry.Duration, start)
 
 					if error == nil {
 						setEntryInDB(entry.Id, strconv.FormatInt(entry.Duration, 10)+" "+worklog.ID)
@@ -57,7 +63,7 @@ func main() {
 				} else {
 					//new
 					start := jira.Time(entry.Start)
-					worklog, error := jiraClient.addWorkLog(entry.Task.JiraId, entry.Description, entry.Duration, start)
+					worklog, error := jiraClient.addWorkLog(entry.Task.JiraId, description, entry.Duration, start)
 
 					if error == nil {
 						setEntryInDB(entry.Id, strconv.FormatInt(entry.Duration, 10)+" "+worklog.ID)

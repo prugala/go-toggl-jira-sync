@@ -19,15 +19,12 @@ func getJiraClient(login, token string) (*Client, error) {
 }
 
 func (c *Client) addWorkLog(issueId, description string, timeSpent int64, startTime jira.Time) (*jira.WorklogRecord, error) {
-	user, _, _ := c.User.GetSelf()
 	timeSpentSeconds := int(timeSpent)
 
 	worklogRecord := jira.WorklogRecord{
-		Author:           user,
 		Comment:          description,
 		Started:          &startTime,
 		TimeSpentSeconds: timeSpentSeconds,
-		IssueID:          issueId,
 	}
 
 	worklog, _, err := c.Issue.AddWorklogRecord(issueId, &worklogRecord)
@@ -36,16 +33,13 @@ func (c *Client) addWorkLog(issueId, description string, timeSpent int64, startT
 }
 
 func (c *Client) updateWorkLog(issueId, description, worklogId string, timeSpent int64, startTime jira.Time) (*jira.WorklogRecord, error) {
-	user, _, _ := c.User.GetSelf()
 	timeSpentSeconds := int(timeSpent)
 
 	worklogRecord := jira.WorklogRecord{
 		ID:               worklogId,
-		Author:           user,
 		Comment:          description,
 		Started:          &startTime,
 		TimeSpentSeconds: timeSpentSeconds,
-		IssueID:          issueId,
 	}
 
 	worklog, _, err := c.Issue.AddWorklogRecord(issueId, &worklogRecord)
