@@ -72,8 +72,7 @@ func (s *Session) getTogglEntries(days int) []TogglEntry {
 
 		entry := TogglEntry{
 			Id:          entry.ID,
-			Start:       *entry.Start,
-			Stop:        *entry.Stop,
+			Start:       entry.Start.Add(time.Hour).Add(time.Millisecond),
 			Duration:    entry.Duration,
 			Description: entry.Description,
 			Project:     project,
