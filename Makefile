@@ -1,32 +1,31 @@
 EXECUTABLE=toggl-jira-sync
-WINDOWS=$(EXECUTABLE)_windows.exe
-LINUX=$(EXECUTABLE)_linux
-MACOS=$(EXECUTABLE)_macos
+BUILD_DIR=./build/
+WINDOWS=$(BUILD_DIR)$(EXECUTABLE)_windows_amd64.exe
+LINUX=$(BUILD_DIR)$(EXECUTABLE)_linux_amd64
+DARWIN=$(BUILD_DIR)$(EXECUTABLE)_darwin_amd64
+VERSION=$(shell git describe --tags --always --long --dirty)
 
-all: test build
+.PHONY: all test clean
 
-test:
-	go test .
+build: windows linux darwin ## Build binaries
+	cp .env $(BUILD_DIR).env
+	cp users.json.dist $(BUILD_DIR)users.json
+	@echo version: $(VERSION)
 
-build: windows linux darwin
+windows: $(WINDOWS) ## Build for Windows
 
-run:
-    go run .
+linux: $(LINUX) ## Build for Linux
 
-windows: $(WINDOWS)
-
-linux: $(LINUX)
-
-macos: $(MACOS)
+darwin: $(DARWIN) ## Build for Darwin (macOS)
 
 $(WINDOWS):
-	env GOOS=windows GOARCH=amd64 go build -o ./build/$(WINDOWS) .
+	env GOOS=windows GOARCH=amd64 go build -i -v -o $(WINDOWS) -ldflags="-s -w -X main.version=$(VERSION)"  .
 
 $(LINUX):
-	env GOOS=linux GOARCH=amd64 go build -o ./build/$(LINUX) .
+	env GOOS=linux GOARCH=amd64 go build -i -v -o $(LINUX) -ldflags="-s -w -X main.version=$(VERSION)"  .
 
-$(MACOS):
-	env GOOS=darwin GOARCH=amd64 go build -o ./build/$(DARWIN) .
+$(DARWIN):
+	env GOOS=darwin GOARCH=amd64 go build -i -v -o $(DARWIN) -ldflags="-s -w -X main.version=$(VERSION)"  .
 
-clean:
-	rm -f $(WINDOWS) $(LINUX) $(MACOS)
+clean: ## Remove previous build
+	rm -f $(WINDOWS) $(LINUX) $(DARWIN)
