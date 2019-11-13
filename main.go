@@ -52,14 +52,15 @@ func main() {
 			if duration != strconv.FormatInt(entry.Duration, 10) && entry.Task.JiraId != "" {
 				if jiraWorklogId != "0" {
 					//update
-					start := jira.Time(entry.Start)
-					worklog, error := jiraClient.updateWorkLog(entry.Task.JiraId, description, jiraWorklogId, entry.Duration, start)
-
-					if error == nil {
-						setEntryInDB(entry.Id, strconv.FormatInt(entry.Duration, 10)+" "+worklog.ID)
-					} else {
-						logger.Fatalf("[jira] Task %s error: %v", entry.Task.JiraId, error)
-					}
+					//TODO https://github.com/prugala/go-toggl-jira-sync/issues/2
+					//start := jira.Time(entry.Start)
+					//worklog, error := jiraClient.updateWorkLog(entry.Task.JiraId, description, jiraWorklogId, entry.Duration, start)
+					//
+					//if error == nil {
+					//	setEntryInDB(entry.Id, strconv.FormatInt(entry.Duration, 10)+" "+worklog.ID)
+					//} else {
+					//	logger.Fatalf("[jira] Task %s error: %v", entry.Task.JiraId, error)
+					//}
 				} else {
 					//new
 					start := jira.Time(entry.Start)

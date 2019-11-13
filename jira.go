@@ -36,13 +36,12 @@ func (c *Client) updateWorkLog(issueId, description, worklogId string, timeSpent
 	timeSpentSeconds := int(timeSpent)
 
 	worklogRecord := jira.WorklogRecord{
-		ID:               worklogId,
 		Comment:          description,
 		Started:          &startTime,
 		TimeSpentSeconds: timeSpentSeconds,
 	}
 
-	worklog, _, err := c.Issue.AddWorklogRecord(issueId, &worklogRecord)
+	worklog, _, err := c.Issue.UpdateWorklogRecord(issueId, worklogId, &worklogRecord)
 
 	return worklog, err
 }
