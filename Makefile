@@ -28,4 +28,4 @@ $(DARWIN):
 	env GOOS=darwin GOARCH=amd64 go build -i -v -o $(DARWIN) -ldflags="-s -w -X main.version=$(VERSION)"  .
 
 clean: ## Remove previous build
-	rm -f $(WINDOWS) $(LINUX) $(DARWIN)
+	rm -rf $(BUILD_DIR)
