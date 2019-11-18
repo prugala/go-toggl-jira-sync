@@ -1,5 +1,5 @@
 .idea
-.env.local
+.env
 app.log
 build
 db

@@ -14,8 +14,7 @@ import (
 const logPath = "./app.log"
 
 func init() {
-	// Load and overwrite variables from local envirement file
-	godotenv.Load(".env.local", ".env")
+	godotenv.Load(".env")
 }
 
 func main() {
