@@ -41,8 +41,6 @@ func (c *Client) updateWorkLog(issueId, description, worklogId string, timeSpent
 		TimeSpentSeconds: timeSpentSeconds,
 	}
 
-	//TODO
-	//worklog, _, err := c.Issue.UpdateWorklogRecord(issueId, worklogId, &worklogRecord)
-	worklog, _, err := c.Issue.AddWorklogRecord(issueId, &worklogRecord)
+	worklog, _, err := c.Issue.UpdateWorklogRecord(issueId, worklogId, &worklogRecord)
 	return worklog, err
 }
